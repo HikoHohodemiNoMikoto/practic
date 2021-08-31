@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#6d6d6d;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+.wrapper {
+    width: 990px;
+    height: 666px;
+    margin: auto;
+    align-content: center;
+
+}
+.header {
+    width: 750px;
+    margin: auto;
+}
+.h1 {
+    font-family: "Minion Pro Semibold";
+    font-size: 35px;
+    margin-top: 56px;
+
+
+}
+.h2 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #44484a;
+    margin-top: 24px;
+    margin-bottom: 54px;
+
+}
+.boxProduct {
+
+}
+.product1 {
+    float: left;
+    max-width: 33.33%;
+
+}
+.product2 {
+    float: left;
+    max-width: 33.33%;
+    padding-left: 42px;
+
+}
+.product3 {
+    float: right;
+    max-width: 33.33%;
+}
+.nameProduct {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.priceProduct {
+    font-family: Arial;
+    font-weight: bold;
+}
+.price {
+    font-size: 22px;
+
+}
+.currency {
+    font-size: 18px;
+padding-right: 14px;
+}
+.button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    width: 89px;
+    height: 32px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+
+}
